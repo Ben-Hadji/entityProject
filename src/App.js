@@ -87,6 +87,8 @@ const App = () => {
     };
 
     fetchDiffs();
+    fetchDiffs();
+    fetchDiffs();
   }, [gitlabRepoUrl]);
 
   return (
